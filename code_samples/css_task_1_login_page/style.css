@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* Explain CSS reset using this */
+}
+
+.main {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  padding: 1rem;
+  max-width: max-content;
+  margin-inline-start: 38vw;
+  margin-block-start: 31vh;
+  text-align: center;
+}
+
+
+.nav{
+  margin-block-end: 1rem;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  margin-right:0.5rem;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+}
+
+.login-label{
+font-weight: 300;
+font-size: 1.25rem;
+}
+
+.login-field{
+  margin-block-end: 1rem;
+}
