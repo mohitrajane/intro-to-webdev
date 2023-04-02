@@ -1,0 +1,29 @@
+:root{
+  --primary-color-200:hsl(127,29%,94%);
+  --gray-700: hsl(207,16%,22%);
+  --tag-background: var(--primary-color-200);
+}
+
+.tag {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 400;
+  padding: 2px 8px;
+  line-height: 1.1;
+  min-height: 1.25rem;
+  border-radius: 100vh;
+  color: var(--gray-700);
+  background-color: var(--tag-background);
+  }
+
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
